@@ -109,20 +109,20 @@ ul li:hover{
 
 .one{
     display: flex;
-    gap: 40px;
-    padding: 20px 15px;
-    padding-top: 45px;
-    height: 260px;
-  
+    gap: 25px;
+    padding: 20px 100px;
+    padding-top: 40px;
 }
 
 .two{
     width: 50%;
     background-color: #222831;
+    margin-top: 50px;
     display: flex;
     align-items: center;
-    padding: 20px 15px;
-    height: 175px;
+    height: auto;
+    padding: 30px 30px;
+    border-radius: 5px;
 }
 
 .two h5{
@@ -138,23 +138,63 @@ ul li:hover{
 }
 
 .two img{
-    width: 165px;
-    height: 165px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
+    border-radius: 50%;
+    outline-style: solid;
+    outline-color: #ffbe33;
+    outline-width: 5px;
 }
 
 .two h5,
 .two h6{
     margin: 0;
+    padding: 5px;
 }
 
 .two .three{
     font-family: "Dancing Script";
     color: white;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin-left: 20px;
+}
+
+.menu{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.menu h2{
+    font-family: Dancing Script;
+    font-size: 40px;
+}
+
+.menu button{
+    background-color: #222831;
+    height: 40px;
+    width: 80px;
+}
+
+.menu ul{
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.main{
+display: flex;
+}
+
+.bottom{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.row{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
