@@ -1,211 +1,213 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.first-page{
-    background-image: url(./Home.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.first-page {
+  background-image: url(./Home.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-nav, ul{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+nav,
+ul {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-ul{
-    list-style: none;
-    gap: 10px;
+ul {
+  list-style: none;
+  gap: 10px;
 }
 
-button{
-    border-radius: 45px;
-    box-sizing: border-box;
-    font-family: 'Open Sans';
-    color: white;
-    background-color: #ffbe33;
-    align-items: center;
-    height: 45px;
-    width: 160px;
+button {
+  border-radius: 45px;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  color: white;
+  background-color: #ffbe33;
+  align-items: center;
+  height: 45px;
+  width: 160px;
 }
 
-button:hover{
-    background-color: #e69c00;
+button:hover {
+  background-color: #e69c00;
 }
 
-.button-dis{
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
-    padding-right: 80px;
-
+.button-dis {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding-right: 80px;
 }
 
-li a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 8px 16px;
+li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
 }
 
-li a:hover{
-    color: #ffbe33;
+li a:hover {
+  color: #ffbe33;
 }
 
-ul li:hover{
-    color: #ffbe33;
+ul li:hover {
+  color: #ffbe33;
 }
 
-.head{
-    padding: 5px 30px;
-    margin-left: 40px;
+.head {
+  padding: 5px 30px;
+  margin-left: 40px;
 }
 
-.icon{
-    gap: 20px;
+.icon {
+  gap: 20px;
 }
 
-.words{
-    padding-left: 200px;
-    font-family: "Open Sans", sans-serif;
+.words {
+  padding-left: 200px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.food{
-    
-    color: white;
-    align-items: flex-start;
-    margin-left: 100px;
+select::selection {
+  background: #ff0099; /* Pink background for selection */
+  color: black; /* Black text for selection */
 }
 
-
-.food h1{
- font-family: "Dancing Script";
- font-size: 3.5rem;
-    font-weight: bold;
-    margin-top: 60px;
-    margin-bottom: 15px;
-}
-.order{
-    margin-top: 10px;
+.food {
+  color: white;
+  align-items: flex-start;
+  margin-left: 100px;
 }
 
-.food p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    margin-top: 0;
-
+.food h1 {
+  font-family: "Dancing Script";
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.order {
+  margin-top: 10px;
 }
 
-.felogo{
-    font-family: 'Dancing Script', cursive;
+.food p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 0;
 }
 
-.one{
-    display: flex;
-    gap: 25px;
-    padding: 20px 100px;
-    padding-top: 40px;
+.felogo {
+  font-family: "Dancing Script", cursive;
 }
 
-.two{
-    width: 50%;
-    background-color: #222831;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    height: auto;
-    padding: 30px 30px;
-    border-radius: 5px;
+.one {
+  display: flex;
+  gap: 25px;
+  padding: 20px 100px;
+  padding-top: 40px;
 }
 
-.two h5{
-    font-size: 24px;
+.two {
+  width: 50%;
+  background-color: #222831;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 30px 30px;
+  border-radius: 5px;
 }
 
-.two h6{
-    font-size: 40px;
+.two h5 {
+  font-size: 24px;
 }
 
-.two span{
-    font-size: 16px;
+.two h6 {
+  font-size: 40px;
 }
 
-.two img{
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    border-radius: 50%;
-    outline-style: solid;
-    outline-color: #ffbe33;
-    outline-width: 5px;
+.two span {
+  font-size: 16px;
+}
+
+.two img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  outline-style: solid;
+  outline-color: #ffbe33;
+  outline-width: 5px;
 }
 
 .two h5,
-.two h6{
-    margin: 0;
-    padding: 5px;
+.two h6 {
+  margin: 0;
+  padding: 5px;
 }
 
-.two .three{
-    font-family: "Dancing Script";
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 20px;
+.two .three {
+  font-family: "Dancing Script";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
 }
 
-.menu{
-    text-align: center;
-    padding: 40px 0;
+.menu {
+  text-align: center;
+  padding: 40px 0;
 }
 
-.menu h2{
-    font-family: Dancing Script;
-    font-size: 40px;
+.menu h2 {
+  font-family: Dancing Script;
+  font-size: 40px;
 }
 
-.menu button{
-    background-color: #222831;
-    height: 40px;
-    width: 80px;
+.menu button {
+  background-color: #222831;
+  height: 40px;
+  width: 80px;
 }
 
-.menu ul{
-    gap: 40px;
-    justify-content: center;
-    padding-top: 20px;
+.menu ul {
+  gap: 40px;
+  justify-content: center;
+  padding-top: 20px;
 }
 
-.main{
-display: flex;
-gap: 30px;
-justify-content: center;
-padding: 0 120px;
-flex-wrap: wrap;
+.main {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 120px;
+  flex-wrap: wrap;
 }
 
-.branch{
-    flex: 0 0 calc(33.333% - 20px);
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+.branch {
+  flex: 0 0 calc(33.333% - 20px);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-.top{
-    background-color: #f1f2f3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
+.top {
+  background-color: #f1f2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
 
 .top img {
@@ -215,121 +217,212 @@ flex-wrap: wrap;
   border-radius: 50%;
 }
 
-
-.bottom{
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #212529;
-    color: white;
-    padding: 20px;
+.bottom {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #212529;
+  color: white;
+  padding: 20px;
 }
 
 .bottom h5,
 .bottom p {
-    margin: 0;
+  margin: 0;
 }
 
 .bottom p {
-    max-height: 72px;
-    overflow: hidden;
+  max-height: 72px;
+  overflow: hidden;
 }
 
-.row{
-
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    background-color: #212529;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    color: white;
-    margin-top: auto;
+.row {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  margin-top: auto;
 }
 
-.row span{
-    color: white;
-    background-color: #ffbe33;
-    border-radius: 50%;
-    padding: 8px;
-    font-size: 16px;
+.row span {
+  color: white;
+  background-color: #ffbe33;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 16px;
 }
 
-.more{
-    margin-top: 20px;
-    margin-bottom: 40px;
+.more {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.proto{
-    height: 100vh;
-    background-color: #222831;
-    display: flex;
-    padding: 25px;
-    padding-top: 50px ;
-    padding-bottom: 50px;
-
-
-
+.proto {
+  height: 100vh;
+  background-color: #222831;
+  display: flex;
+  padding: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.st{
-    background-image: url("https://themewagon.github.io/feane/images/about-img.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    background-position: center;
-    margin-top: 50px;
+.st {
+  background-image: url("https://themewagon.github.io/feane/images/about-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  background-position: center;
+  margin-top: 50px;
 }
 
-.nd{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    max-width: 70ch;
-    line-height: 1.6;
-    justify-content: center;
+.nd {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 70ch;
+  line-height: 1.6;
+  justify-content: center;
 }
 
-.nd h2{
-    font-family: Dancing Script;
-    font-size: 40px;
-    margin-bottom: 0;
+.nd h2 {
+  font-family: Dancing Script;
+  font-size: 40px;
+  margin-bottom: 0;
 }
 
-.nd p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+.nd p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
-.nd button{
-    margin-top: 10px;
+.nd button {
+  margin-top: 10px;
 }
 
-.boook{
-    font-family: Dancing Script;
-    font-size: 40px;
+.boook {
+  font-family: Dancing Script;
+  font-size: 40px;
+  padding-top: 90px;
+  padding-left: 110px;
+  margin: 0 0 25px 0;
 }
 
-.leno{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+.leno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 
-.colem{
-    display: flex;
-    flex-direction: column;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    padding: 6px 12px;
-    width: 555px;
+.colem {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  width: 555px;
 }
 
-.colum img{
-    height: 345px;
-    width: 555px;
-    border-radius: 10px;
+.colem input,
+.colem select {
+  margin-bottom: 25px;
+  padding: 6px 12px 6px 25px;
+  border: 1px black solid;
+  box-sizing: border-box;
+  width: 516px;
+  height: 48px;
+  font-size: 16px;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+}
+
+.colem input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+.colem input:last-child {
+  margin-bottom: 0;
+}
+
+.colum img {
+  height: 345px;
+  width: 555px;
+  border-radius: 10px;
+}
+
+.noww {
+  padding-bottom: 90px;
+  padding-left: 110px;
+  margin: 25px 0 0 0;
+}
+
+.our {
+  font-family: Dancing Script;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clsone {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.boxx {
+  display: flex;
+  flex-direction: column;
+}
+
+.clstwo {
+  background: #212529;
+  color: white;
+  border-radius: 5px;
+  padding: 25px 25px 15px 25px;
+  line-height: 1.6;
+  max-width: 65ch;
+  display: flex;
+  flex-direction: column;
+}
+
+.clstwo p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.clstwo h6 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 0 10px 0;
+}
+
+.clsthree {
+  position: relative;
+}
+
+.clsthree img {
+  width: 100px;
+  margin-top: 15px;
+  border-radius: 50%;
+  border: 5px solid #ffbe33;
+}
+
+.clsthree::before {
+  z-index:-1 ;
+  content: "";
+  position: absolute;
+  left: 9%;
+  top: 16px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffbe33;
+  -webkit-transform: rotate(45deg) translateX(-50%);
+  transform: rotate(45deg) translateX(-50%);
 }
